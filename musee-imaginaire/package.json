@@ -1,0 +1,34 @@
+{
+  "name": "musee-imaginaire",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Musée imaginaire (nom provisoire) — jeu de collection d'art, web mobile d'abord.",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22.17"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @musee/web dev",
+    "build": "pnpm --filter @musee/web build",
+    "preview": "pnpm --filter @musee/web preview",
+    "check": "pnpm -r --if-present check && tsc --noEmit -p scripts/tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate": "tsx packages/catalog/src/cli-validate.ts",
+    "budget": "tsx scripts/check-budget.ts",
+    "pipeline:candidates": "tsx scripts/pipeline/candidates.ts",
+    "pipeline:build": "tsx scripts/pipeline/build.ts",
+    "verify": "pnpm check && pnpm test && pnpm validate && pnpm build && pnpm budget"
+  },
+  "devDependencies": {
+    "@musee/catalog": "workspace:*",
+    "@musee/rules": "workspace:*",
+    "@types/node": "^26.6.6",
+    "sharp": "^0.34.0",
+    "tsx": "^4.20.0",
+    "typescript": "~6.0.3",
+    "valibot": "^1.5.0",
+    "vitest": "^5.1.0"
+  }
+}

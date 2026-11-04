@@ -1,0 +1,20 @@
+{
+  "name": "@musee/catalog",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Schéma, validation et données du catalogue (styles, peintres, traits, œuvres).",
+  "exports": {
+    ".": "./src/index.ts",
+    "./node": "./src/load.ts",
+    "./images": "./src/images.ts",
+    "./data/*": "./data/*"
+  },
+  "scripts": {
+    "check": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@musee/rules": "workspace:*",
+    "valibot": "^1.5.0"
+  }
+}

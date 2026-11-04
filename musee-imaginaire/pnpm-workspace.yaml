@@ -1,0 +1,10 @@
+packages:
+  - apps/*
+  - packages/*
+
+# pnpm 10 n'exécute pas les scripts d'installation par défaut :
+# on autorise explicitement ceux dont on a besoin.
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - workerd

@@ -1,0 +1,11 @@
+{
+  "_comment": "Lot pilote : nombre d'œuvres par peintre (total 20) et fragments de titres à privilégier. Les indications sont SOUPLES : si un fragment ne correspond à rien dans la collection du musée, il est ignoré sans erreur. Modifiable à volonté.",
+  "claude-monet": { "count": 5, "titleHints": ["Stacks of Wheat", "Water Lilies", "Water Lily Pond", "Arrival of the Normandy Train", "Beach at Sainte-Adresse"] },
+  "pierre-auguste-renoir": { "count": 3, "titleHints": ["Two Sisters", "Woman at the Piano", "Lunch at the Restaurant Fournaise"] },
+  "edgar-degas": { "count": 3, "titleHints": ["Millinery Shop", "Dance", "Ballet"] },
+  "mary-cassatt": { "count": 3, "titleHints": ["Child's Bath", "Woman in Black", "Mother"] },
+  "camille-pissarro": { "count": 2, "titleHints": ["Boulevard", "Place du Theatre", "Haymaking"] },
+  "alfred-sisley": { "count": 1, "titleHints": ["Flood", "Loing", "Louveciennes"] },
+  "berthe-morisot": { "count": 2, "titleHints": ["Woman at Her Toilette", "Cradle", "Reading"] },
+  "gustave-caillebotte": { "count": 1, "titleHints": ["Paris Street", "Rainy Day", "Bridge"] }
+}

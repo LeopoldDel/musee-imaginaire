@@ -1,0 +1,10 @@
+[
+  { "id": "claude-monet", "name": "Claude Monet", "styleId": "impressionnisme", "rarity": "legendary", "born": 1840, "died": 1926 },
+  { "id": "pierre-auguste-renoir", "name": "Pierre-Auguste Renoir", "styleId": "impressionnisme", "rarity": "rare", "born": 1841, "died": 1919 },
+  { "id": "edgar-degas", "name": "Edgar Degas", "styleId": "impressionnisme", "rarity": "rare", "born": 1834, "died": 1917 },
+  { "id": "mary-cassatt", "name": "Mary Cassatt", "styleId": "impressionnisme", "rarity": "rare", "born": 1844, "died": 1926 },
+  { "id": "camille-pissarro", "name": "Camille Pissarro", "styleId": "impressionnisme", "rarity": "common", "born": 1830, "died": 1903 },
+  { "id": "alfred-sisley", "name": "Alfred Sisley", "styleId": "impressionnisme", "rarity": "common", "born": 1839, "died": 1899 },
+  { "id": "berthe-morisot", "name": "Berthe Morisot", "styleId": "impressionnisme", "rarity": "common", "born": 1841, "died": 1895 },
+  { "id": "gustave-caillebotte", "name": "Gustave Caillebotte", "styleId": "impressionnisme", "rarity": "common", "born": 1848, "died": 1894 }
+]

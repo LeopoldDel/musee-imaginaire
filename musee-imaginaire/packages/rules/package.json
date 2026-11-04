@@ -1,0 +1,13 @@
+{
+  "name": "@musee/rules",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Règles du jeu pures (TypeScript sans dépendance) : partagées entre le client et le serveur.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "check": "tsc --noEmit -p tsconfig.json"
+  }
+}

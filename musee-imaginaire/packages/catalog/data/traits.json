@@ -1,0 +1,16 @@
+[
+  { "id": "impressionnisme", "kind": "movement", "name": { "fr": "Impressionnisme" } },
+
+  { "id": "paysage", "kind": "genre", "name": { "fr": "Paysage" } },
+  { "id": "portrait", "kind": "genre", "name": { "fr": "Portrait" } },
+  { "id": "scene-de-genre", "kind": "genre", "name": { "fr": "Scène de genre" } },
+  { "id": "scene-urbaine", "kind": "genre", "name": { "fr": "Scène urbaine" } },
+  { "id": "nature-morte", "kind": "genre", "name": { "fr": "Nature morte" } },
+  { "id": "marine", "kind": "genre", "name": { "fr": "Marine" } },
+
+  { "id": "1860s", "kind": "era", "name": { "fr": "Années 1860" } },
+  { "id": "1870s", "kind": "era", "name": { "fr": "Années 1870" } },
+  { "id": "1880s", "kind": "era", "name": { "fr": "Années 1880" } },
+  { "id": "1890s", "kind": "era", "name": { "fr": "Années 1890" } },
+  { "id": "1900s", "kind": "era", "name": { "fr": "Années 1900" } }
+]

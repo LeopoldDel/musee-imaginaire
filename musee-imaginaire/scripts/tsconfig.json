@@ -1,0 +1,6 @@
+{
+  "extends": "../tsconfig.base.json",
+  "include": ["./**/*.ts", "./**/*.mjs"],
+  "exclude": ["**/node_modules/**", "**/.cache/**"],
+  "compilerOptions": { "allowJs": true, "checkJs": false }
+}
