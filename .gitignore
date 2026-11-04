@@ -1,0 +1,15 @@
+node_modules
+.svelte-kit
+.wrangler
+dist
+build
+coverage
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# Images produites par le pipeline : volumineuses, régénérables.
+apps/web/static/art/
+scripts/pipeline/.cache/
